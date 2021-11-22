@@ -1,0 +1,117 @@
+body{
+    background-color: #FFFDFC;
+}
+.logo{
+    background-color: beige;
+    height:230px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav{
+    display:flex;
+    background-color: #BE265A;
+    padding: 20px;
+}
+
+.center{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.center{
+    width: 100%;
+}
+
+.center a {
+    color: #E8F1F1;
+    padding: 30px;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Rockwell', serif;
+    align-items: center;
+  }
+
+
+.column{
+    display:flex;
+    flex-direction:column;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.text{
+    width: 40%;
+    padding:20px 40px;
+    display:flex;
+    flex-direction:column;
+    font-family: 'Rockwell', serif;
+}
+
+.text p{
+    color:#313333;
+    font-family: 'Rockwell', serif;
+    font-size: 18px;
+}
+
+.text h1{
+    color:#111111;
+    font-size: 28px;
+}
+
+.text h2{
+    color:#111111;
+    font-size: 24px;
+}
+
+.item1, .item2, .item3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+
+  .item1 {
+    margin-top:20px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.proto-frame{
+      height: auto;
+      width: 25%;
+      display: flex;
+      align-items: center;
+      border-style: solid;
+      border-color: #BE265A;
+  }
+
+.item2 {
+    margin-top:20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image1{
+      margin: 20px;
+      height: 10%;
+      width: 10%;
+      display: flex;
+      background-repeat: no-repeat;
+      align-items: flex-end;
+      background-image: url(../images/Union\ 20.png);
+}
+
+.image2{
+    margin: 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+}   
+
