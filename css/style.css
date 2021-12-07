@@ -83,12 +83,16 @@ body{
 
 .proto-frame{
       height: auto;
-      width: 25%;
       display: flex;
       align-items: center;
       border-style: solid;
       border-color: #BE265A;
   }
+
+.container{
+    padding: 20px;
+    border-color: #BE265A;
+}
 
 .item2 {
     margin-top:20px;
